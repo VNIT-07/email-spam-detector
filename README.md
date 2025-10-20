@@ -1,4 +1,4 @@
-📧 Email Spam Detector
+📧 Email Spam Detector					
 
 Ever opened your inbox and found messages like “You’ve won a million dollars!” or “Click here to claim your prize”?  
 That’s spam — and we all hate it.
@@ -27,16 +27,16 @@ It’s similar to how you learn:
 
 
 🗂 Project Files Explained
-|------------------------------|------------------------------------------------|
-|             File             |                     Purpose                    |
-|------------------------------|------------------------------------------------|
-| `email.csv`                  | The dataset of real email messages             |
-| `Email.ipynb`                | Notebook where the model is trained and tested |
-| `email.py`                   | Simple Python script to test new emails        |
-| `email_dt_model.pkl`         | The trained machine learning model             |
-| `email_tfidf_vectorizer.pkl` | The word analyzer used to understand text      |
-| `README.md`                  | You’re reading it right now!                   |
-|------------------------------|------------------------------------------------|
+
+email.csv – Contains the dataset of real email messages used for training.
+
+Email.ipynb – Jupyter Notebook where the machine learning model is trained and tested.
+
+email.py – A simple Python script to test new email messages.
+
+email_dt_model.pkl – The saved Decision Tree model used for predictions.
+
+email_tfidf_vectorizer.pkl – The stored TF-IDF word analyzer that helps the model understand text.
 
 
 💻 Model Accuracy 
